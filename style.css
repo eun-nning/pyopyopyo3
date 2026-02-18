@@ -1,0 +1,130 @@
+/* ===== 기본 설정 ===== */
+body {
+  background-color: #fffacd;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+}
+
+/* ===== 타이틀 이미지 ===== */
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;  /* 검색창과 간격 40px */
+}
+
+.title-logo {
+  width: 220px;
+  height: auto;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 4px 10px rgba(252,232,131,0.45)); /* 밝은 노랑 그림자 */
+}
+
+.title-logo:hover {
+  transform: scale(1.05);
+}
+
+/* ===== 검색창 ===== */
+#searchInput {
+  margin-bottom: 20px;   /* 검색창 ↔ 버튼 간격 20px */
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 2px solid #fce883;
+  width: 220px;
+  transition: all 0.25s ease;
+}
+
+#searchInput:focus {
+  width: 300px;
+  box-shadow: 0 0 12px rgba(252, 232, 131, 0.5);
+  outline: none;
+}
+
+/* ===== 버튼 공통 ===== */
+button {
+  background-color: #fce883;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+/* 버튼간격 20px */
+.controls,
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.tags {
+  margin-bottom: 20px;
+}
+
+/* 버튼 hover 효과 */
+button:hover {
+  background-color: #f7dc6f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(252, 232, 131, 0.45); /* 밝은 노랑 그림자 */
+}
+
+/* 태그 활성화 */
+.tags button.active {
+  background-color: #e6c84f;
+}
+
+/* ===== 테이블 ===== */
+table {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+th {
+  background-color: #fce883;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background-color: #fff9d6;
+}
+
+/* ===== 모바일 최적화 ===== */
+@media (max-width: 600px) {
+
+  #searchInput {
+    width: 160px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  .controls,
+  .tags {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>라이브 아카이브</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 타이틀 로고 ===== -->
+  <div class="title-wrapper">
+    <img src="logo.png" alt="라이브 아카이브 로고" class="title-logo">
+  </div>
+
+  <!-- ===== 검색창 ===== -->
+  <input type="text" id="searchInput" placeholder="제목 또는 가수 검색">
+
+  <!-- ===== 정렬 버튼 ===== -->
+  <div class="controls">
+    <button onclick="sortByNewest()">최신순</button>
+    <button onclick="sortByOldest()">오래된순</button>
+    <button onclick="displaySongs()">전체보기</button>
+  </div>
+
+  <!-- ===== 태그 버튼 ===== -->
+  <div class="tags">
+    <button onclick="filterByTag('콘서트')">콘서트</button>
+    <button onclick="filterByTag('라디오')">라디오</button>
+    <button onclick="filterByTag('팬미팅')">팬미팅</button>
+    <button onclick="filterByTag('커버')">커버</button>
+  </div>
+
+  <!-- ===== 노래 테이블 ===== -->
+  <table>
+    <thead>
+      <tr>
+        <th>제목</th>
+        <th>원곡 가수</th>
+        <th>날짜</th>
+        <th>태그</th>
+        <th>영상</th>
+      </tr>
+    </thead>
+    <tbody id="songTable"></tbody>
+  </table>
+
+<script src="script.js"></script>
+</body>
+</html>
