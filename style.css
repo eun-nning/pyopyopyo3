@@ -10,8 +10,8 @@ body {
 .title-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;  /* 검색창과 간격 40px */
+  margin-top: 25px;
+  margin-bottom: 25px;  /* 검색창과 간격 40px */
 }
 
 .title-logo {
