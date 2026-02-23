@@ -352,20 +352,7 @@ const songs = [
     tag: "노래뱅",
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=7537"
   },
-  {
-    title: "뿌리",
-    titleAlt: [],
-
-    mainArtist: ["쿤디판다"],
-    mainArtistAlt: ["Khundi panda"],
-
-    featArtist: ["저스디스"],
-    featArtistAlt: ["justhis"],
-
-    date: "2026-02-15",
-    tag: "노래뱅",
-    link: "https://vod.sooplive.co.kr/player/187023883?change_second=7751"
-  },
+  .
   {
     title: "원효대사",
     titleAlt: [],
@@ -603,6 +590,160 @@ const songs = [
     date: "2026-02-15",
     tag: "노래뱅",
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=27382"
+  },
+  {
+    title: "첫사랑",
+    titleAlt: [],
+
+    mainArtist: ["백아"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=23316"
+  },
+  {
+    title: "밤하늘의 별을",
+    titleAlt: ["밤하늘의 별을"],
+
+    mainArtist: ["경서"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=23926"
+  },
+  {
+    title: "0+0",
+    titleAlt: ["00"],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=24226"
+  },
+  {
+    title: "사건의 지평선",
+    titleAlt: ["Event Horizon"],
+
+    mainArtist: ["윤하"],
+    mainArtistAlt: ["younha"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=24572"
+  },
+  {
+    title: "Magnetic",
+    titleAlt: ["마그네틱"],
+
+    mainArtist: ["ILLIT"],
+    mainArtistAlt: ["아일릿"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=25453"
+  },
+  {
+    title: "Stay",
+    titleAlt: ["스테이","스태이"],
+
+    mainArtist: ["The Kid LAROI","Justin Bieber"],
+    mainArtistAlt: ["더 키드 라로이","저스틴비버"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=26338"
+  },
+  {
+    title: "밤편지",
+    titleAlt: [],
+
+    mainArtist: ["IU"],
+    mainArtistAlt: ["아이유"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=26540"
+  },
+  {
+    title: "일과이분의일",
+    titleAlt: [],
+
+    mainArtist: ["츄"],
+    mainArtistAlt: ["CHUU"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=27015"
+  },
+  {
+    title: "붕붕",
+    titleAlt: [],
+
+    mainArtist: ["김하온"],
+    mainArtistAlt: [],
+
+    featArtist: ["Sik-K"],
+    featArtistAlt: ["식케이","식캐이"],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=27978"
+  },
+  {
+    title: "뿌리",
+    titleAlt: [],
+
+    mainArtist: ["쿤디판다"],
+    mainArtistAlt: ["Khundi panda"],
+
+    featArtist: ["저스디스"],
+    featArtistAlt: ["justhis"],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=28295"
+  },
+  {
+    title: "IndiGO",
+    titleAlt: ["인디고"],
+
+    mainArtist: ["저스디스","키드밀리","양홍원","NO:EL"],
+    mainArtistAlt: ["justhis","Kid Milli","장용준","Young B"],
+
+    featArtist: ["저스디스"],
+    featArtistAlt: ["justhis"],
+
+    date: "2026-02-23",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=28700"
   }
 ];
 
