@@ -352,7 +352,6 @@ const songs = [
     tag: "노래뱅",
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=7537"
   },
-  .
   {
     title: "원효대사",
     titleAlt: [],
