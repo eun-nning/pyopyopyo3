@@ -602,7 +602,7 @@ const songs = [
 
     date: "2026-02-23",
     tag: "노래뱅",
-    link: "https://vod.sooplive.co.kr/player/187796673?change_second=23316"
+    link: "https://vod.sooplive.co.kr/player/187796673?change_second=23357"
   },
   {
     title: "밤하늘의 별을",
