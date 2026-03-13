@@ -743,7 +743,175 @@ const songs = [
     date: "2026-02-23",
     tag: "노래뱅",
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=28700"
-  }
+  },
+  {
+    title: "첫사랑",
+    titleAlt: [],
+
+    mainArtist: ["백아"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=9832"
+  },
+  {
+    title: "너를 생각해",
+    titleAlt: [],
+
+    mainArtist: ["경서","주시크"],
+    mainArtistAlt: ["Joosiq"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=10474"
+  },
+  {
+    title: "위하여",
+    titleAlt: ["We higher"],
+
+    mainArtist: ["블라세","노윤하","polodared","칠린호미","플리키뱅"],
+    mainArtistAlt: ["폴로다레드","blase","chillin Homie","Fleeky Bang"],
+
+    featArtist: ["릴보이"],
+    featArtistAlt: ["lilboi"],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=11126"
+  },
+  {
+    title: "혼모노",
+    titleAlt: ["Honmono"],
+
+    mainArtist: ["키드밀리"],
+    mainArtistAlt: ["Kid milli"],
+
+    featArtist: ["블랙넛"],
+    featArtistAlt: ["Black Nut"],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=11891"
+  },
+  {
+    title: "수퍼비와",
+    titleAlt: [],
+
+    mainArtist: ["SUPERBEE"],
+    mainArtistAlt: ["수퍼비","슈퍼비"],
+
+    featArtist: ["비와이"],
+    featArtistAlt: ["BewhY"],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=12221"
+  },
+  {
+    title: "love wins all",
+    titleAlt: ["러브 윈즈 올","러브윈즈올"],
+
+    mainArtist: ["IU"],
+    mainArtistAlt: ["아이유"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=13247"
+  },
+  {
+    title: "내 손을 잡아",
+    titleAlt: [],
+
+    mainArtist: ["IU"],
+    mainArtistAlt: ["아이유"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=13795"
+  },
+  {
+    title: "180도",
+    titleAlt: ["백팔십도"],
+
+    mainArtist: ["벤"],
+    mainArtistAlt: ["Ben"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=14184"
+  },
+  {
+    title: "빌런",
+    titleAlt: ["Villain"],
+
+    mainArtist: ["스텔라장"],
+    mainArtistAlt: ["stella jang"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=14741"
+  }, 
+  {
+    title: "만찬가",
+    titleAlt: [],
+
+    mainArtist: ["츠키"],
+    mainArtistAlt: ["tuki"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=15197"
+  },
+  {
+    title: "사건의 지평선",
+    titleAlt: ["Event Horizon"],
+
+    mainArtist: ["윤하"],
+    mainArtistAlt: ["younha"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=15588"
+  },
+  {
+    title: "business boy",
+    titleAlt: ["비즈니스 보이","비지니스 보이"],
+
+    mainArtist: ["허성현"],
+    mainArtistAlt: ["Huh!"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-03-13",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.co.kr/player/189611109?change_second=16301"
+  },
 ];
 
 //  현재 선택된 태그 저장 (추가된 부분)
@@ -857,7 +1025,11 @@ searchInput.addEventListener("input", (e) => {
 
 // 최신순 (태그 유지되도록 수정)
 function sortByNewest() {
-  songs.sort((a, b) => new Date(b.date) - new Date(a.date));
+  songs.sort((a, b) => {
+    const dateDiff = new Date(b.date) - new Date(a.date);
+    if (dateDiff !== 0) return dateDiff;
+    return songs.indexOf(b) - songs.indexOf(a);
+  });
   displaySongs(searchInput.value, currentTag);
 }
 
