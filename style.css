@@ -43,7 +43,7 @@ body {
 
 /* ===== 버튼 공통 ===== */
 button {
-  background-color: #ffeca2;
+  background-color: #ffe992;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -73,12 +73,12 @@ button {
 button:hover {
   background-color: #ffeb9a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgb(255, 241, 173); /* 밝은 노랑 그림자 */
+  box-shadow: 0 4px 10px rgb(255, 238, 153); /* 밝은 노랑 그림자 */
 }
 
 /* 태그 활성화 */
 .tags button.active {
-  background-color: #ffeb9a;
+  background-color: #ffe992;
 }
 
 /* ===== 테이블 ===== */
