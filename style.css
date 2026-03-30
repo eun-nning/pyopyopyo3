@@ -43,7 +43,7 @@ body {
 
 /* ===== 버튼 공통 ===== */
 button {
-  background-color: #ffe992;
+  background-color: #ffe88c;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -73,12 +73,12 @@ button {
 button:hover {
   background-color: #ffeb9a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(255, 238, 153, 0); /* 밝은 노랑 그림자 */
+  box-shadow: 0 2px 6px rgb(253, 234, 140); /* 밝은 노랑 그림자 */
 }
 
 /* 태그 활성화 */
 .tags button.active {
-  background-color: #ffe992;
+  background-color: #ffe88c;
 }
 
 /* ===== 테이블 ===== */
@@ -94,7 +94,7 @@ table {
 }
 
 th {
-  background-color: #fff1a9;
+  background-color: #ffe88c;
   color: white;
   padding: 12px;
 }
