@@ -73,7 +73,7 @@ button {
 button:hover {
   background-color: #ffeb9a;
   transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgb(253, 234, 140); /* 밝은 노랑 그림자 */
+  box-shadow: 0 2px 6px rgb(255, 229, 99); /* 밝은 노랑 그림자 */
 }
 
 /* 태그 활성화 */
