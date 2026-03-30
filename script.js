@@ -266,7 +266,7 @@ const songs = [
 
     date: "2026-02-15",
     tag: "노래뱅",
-    link: "https://vod.sooplive.co.kr/player/187023883?change_second=5396"
+    link: "https://vod.sooplive.com/player/187023883?change_second=5463"
   },
   {
     title: "one of them",
@@ -911,6 +911,34 @@ const songs = [
     date: "2026-03-13",
     tag: "노래뱅",
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=16301"
+  },
+  {
+    title: "혼모노",
+    titleAlt: ["Honmono"],
+
+    mainArtist: ["키드밀리"],
+    mainArtistAlt: ["Kid milli"],
+
+    featArtist: ["블랙넛"],
+    featArtistAlt: ["Black Nut"],
+
+    date: "2026-03-29",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/191208411?change_second=16888"
+  },
+  {
+    title: "혼모노",
+    titleAlt: ["Honmono"],
+
+    mainArtist: ["키드밀리"],
+    mainArtistAlt: ["Kid milli"],
+
+    featArtist: ["블랙넛"],
+    featArtistAlt: ["Black Nut"],
+
+    date: "2026-03-29",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/191208411?change_second=38864"
   },
 ];
 
