@@ -30,20 +30,20 @@ body {
   margin-bottom: 20px;   /* 검색창 ↔ 버튼 간격 20px */
   padding: 10px 16px;
   border-radius: 8px;
-  border: 2px solid #fce883;
+  border: 2px solid #ffeb9a;
   width: 220px;
   transition: all 0.25s ease;
 }
 
 #searchInput:focus {
   width: 300px;
-  box-shadow: 0 0 12px rgba(252, 232, 131, 0.945);
+  box-shadow: 0 0 12px rgb(255, 241, 173);
   outline: none;
 }
 
 /* ===== 버튼 공통 ===== */
 button {
-  background-color: #fce883;
+  background-color: #ffeb9a;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -71,14 +71,14 @@ button {
 
 /* 버튼 hover 효과 */
 button:hover {
-  background-color: #f7dc6f;
+  background-color: #ffeb9a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(252, 232, 131, 0.945); /* 밝은 노랑 그림자 */
+  box-shadow: 0 4px 10px rgb(255, 241, 173); /* 밝은 노랑 그림자 */
 }
 
 /* 태그 활성화 */
 .tags button.active {
-  background-color: #e6c84f;
+  background-color: #ffeb9a;
 }
 
 /* ===== 테이블 ===== */
